@@ -1,1 +1,86 @@
-<mxfile host="app.diagrams.net" modified="2021-04-24T04:07:27.933Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" version="14.6.5" etag="wb3ok2s3vokNa80FbbSV" type="github"><diagram id="qDhAo6KutKu7jMbxUoIz">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-24T04:22:35.709Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="p3Gm8YTlPQRrvkxFMGxx" version="14.6.5" type="github">
+  <diagram id="qDhAo6KutKu7jMbxUoIz" name="第 1 页">
+    <mxGraphModel dx="1466" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fUvs4z7f_0ELSPwRoVLd-6" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="150" width="20" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="fUvs4z7f_0ELSPwRoVLd-8" value="智能植物养护系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="150" width="100" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="fUvs4z7f_0ELSPwRoVLd-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="fUvs4z7f_0ELSPwRoVLd-8">
+          <mxGeometry x="45" y="70" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fUvs4z7f_0ELSPwRoVLd-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="fUvs4z7f_0ELSPwRoVLd-8">
+          <mxGeometry x="45" y="250" width="10" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="fUvs4z7f_0ELSPwRoVLd-9" value="传感器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="150" width="100" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="fUvs4z7f_0ELSPwRoVLd-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="fUvs4z7f_0ELSPwRoVLd-9">
+          <mxGeometry x="45" y="180" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fUvs4z7f_0ELSPwRoVLd-12" value="发送花卉照片" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" source="fUvs4z7f_0ELSPwRoVLd-6">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="300" y="220" as="sourcePoint" />
+            <mxPoint x="385" y="221" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fUvs4z7f_0ELSPwRoVLd-13" value="返回识别结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.06;exitY=0.988;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="fUvs4z7f_0ELSPwRoVLd-10" target="fUvs4z7f_0ELSPwRoVLd-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="300" as="sourcePoint" />
+            <mxPoint x="300" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fUvs4z7f_0ELSPwRoVLd-15" value="输入传感器编号" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="290.00034482758616" y="410" as="sourcePoint" />
+            <mxPoint x="385.19" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fUvs4z7f_0ELSPwRoVLd-16" value="将传感器放置在盆栽内" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.114;entryY=0.109;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="fUvs4z7f_0ELSPwRoVLd-17">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="290.0003448275861" y="340" as="sourcePoint" />
+            <mxPoint x="520" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fUvs4z7f_0ELSPwRoVLd-18" value="mqtt服务器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="150" width="100" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="fUvs4z7f_0ELSPwRoVLd-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="fUvs4z7f_0ELSPwRoVLd-18">
+          <mxGeometry x="45" y="240" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fUvs4z7f_0ELSPwRoVLd-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="fUvs4z7f_0ELSPwRoVLd-18">
+          <mxGeometry x="45" y="340" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fUvs4z7f_0ELSPwRoVLd-19" value="传输数据" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.033;entryY=0.148;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="fUvs4z7f_0ELSPwRoVLd-20">
+          <mxGeometry x="-0.153" y="1" width="80" relative="1" as="geometry">
+            <mxPoint x="534" y="402" as="sourcePoint" />
+            <mxPoint x="682" y="402" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fUvs4z7f_0ELSPwRoVLd-21" value="发送请求" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.04;entryY=0.105;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.986;exitY=0.474;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="fUvs4z7f_0ELSPwRoVLd-14" target="fUvs4z7f_0ELSPwRoVLd-23">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="397" y="498" as="sourcePoint" />
+            <mxPoint x="680" y="499" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fUvs4z7f_0ELSPwRoVLd-24" value="返回数据" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.06;exitY=0.988;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.228;entryY=0.806;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="fUvs4z7f_0ELSPwRoVLd-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="685.6700000000001" y="570" as="sourcePoint" />
+            <mxPoint x="400" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fUvs4z7f_0ELSPwRoVLd-25" value="返回数据" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.06;exitY=0.988;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="385.58000000000015" y="610" as="sourcePoint" />
+            <mxPoint x="290.00380952380965" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
