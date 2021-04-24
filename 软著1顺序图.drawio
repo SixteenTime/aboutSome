@@ -1,11 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2021-04-24T04:22:35.709Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="p3Gm8YTlPQRrvkxFMGxx" version="14.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-24T07:01:17.546Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="r1QOYEg9ot2y5_YOYyfi" version="14.6.5" type="github">
   <diagram id="qDhAo6KutKu7jMbxUoIz" name="第 1 页">
-    <mxGraphModel dx="1466" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1222" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="fUvs4z7f_0ELSPwRoVLd-6" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="280" y="150" width="20" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="fUvs4z7f_0ELSPwRoVLd-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="fUvs4z7f_0ELSPwRoVLd-6">
+          <mxGeometry x="5" y="70" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fUvs4z7f_0ELSPwRoVLd-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="fUvs4z7f_0ELSPwRoVLd-6">
+          <mxGeometry x="5" y="180" width="10" height="280" as="geometry" />
         </mxCell>
         <mxCell id="fUvs4z7f_0ELSPwRoVLd-8" value="智能植物养护系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="340" y="150" width="100" height="480" as="geometry" />
@@ -22,27 +28,27 @@
         <mxCell id="fUvs4z7f_0ELSPwRoVLd-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="fUvs4z7f_0ELSPwRoVLd-9">
           <mxGeometry x="45" y="180" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="fUvs4z7f_0ELSPwRoVLd-12" value="发送花卉照片" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" source="fUvs4z7f_0ELSPwRoVLd-6">
+        <mxCell id="fUvs4z7f_0ELSPwRoVLd-12" value="发送花卉照片" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0.962;exitY=0.005;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="fUvs4z7f_0ELSPwRoVLd-26">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="300" y="220" as="sourcePoint" />
+            <mxPoint x="300" y="221" as="sourcePoint" />
             <mxPoint x="385" y="221" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fUvs4z7f_0ELSPwRoVLd-13" value="返回识别结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.06;exitY=0.988;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="fUvs4z7f_0ELSPwRoVLd-10" target="fUvs4z7f_0ELSPwRoVLd-6">
+        <mxCell id="fUvs4z7f_0ELSPwRoVLd-13" value="返回识别结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.06;exitY=0.988;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.89;entryY=1.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fUvs4z7f_0ELSPwRoVLd-10" target="fUvs4z7f_0ELSPwRoVLd-26">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="380" y="300" as="sourcePoint" />
-            <mxPoint x="300" y="300" as="targetPoint" />
+            <mxPoint x="300" y="299" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fUvs4z7f_0ELSPwRoVLd-15" value="输入传感器编号" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+        <mxCell id="fUvs4z7f_0ELSPwRoVLd-15" value="输入传感器编号" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1.044;exitY=0.285;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="fUvs4z7f_0ELSPwRoVLd-27">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="290.00034482758616" y="410" as="sourcePoint" />
+            <mxPoint x="300" y="410" as="sourcePoint" />
             <mxPoint x="385.19" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fUvs4z7f_0ELSPwRoVLd-16" value="将传感器放置在盆栽内" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.114;entryY=0.109;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="fUvs4z7f_0ELSPwRoVLd-17">
+        <mxCell id="fUvs4z7f_0ELSPwRoVLd-16" value="将传感器放置在盆栽内" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.114;entryY=0.109;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.022;exitY=0.032;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="fUvs4z7f_0ELSPwRoVLd-27" target="fUvs4z7f_0ELSPwRoVLd-17">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="290.0003448275861" y="340" as="sourcePoint" />
+            <mxPoint x="300" y="339" as="sourcePoint" />
             <mxPoint x="520" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -74,10 +80,10 @@
             <mxPoint x="400" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fUvs4z7f_0ELSPwRoVLd-25" value="返回数据" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.06;exitY=0.988;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="fUvs4z7f_0ELSPwRoVLd-25" value="返回数据" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.06;exitY=0.988;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.96;entryY=1.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="fUvs4z7f_0ELSPwRoVLd-27">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="385.58000000000015" y="610" as="sourcePoint" />
-            <mxPoint x="290.00380952380965" y="610" as="targetPoint" />
+            <mxPoint x="300" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
