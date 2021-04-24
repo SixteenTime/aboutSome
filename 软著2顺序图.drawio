@@ -1,1 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2021-04-24T06:54:54.582Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" version="14.6.5" etag="wQR5ZAo-BDB-h6j6Jbiy" type="github"><diagram id="9s68bvNAEdoEJaHhr5mi">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-24T07:04:28.105Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="tdCtJSy3-qVO_DJiD2H-" version="14.6.5" type="github">
+  <diagram id="9s68bvNAEdoEJaHhr5mi" name="第 1 页">
+    <mxGraphModel dx="691" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yLclF8FlAqOpxy3Zv6Lq-1" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="150" width="20" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="yLclF8FlAqOpxy3Zv6Lq-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="yLclF8FlAqOpxy3Zv6Lq-1">
+          <mxGeometry x="5" y="70" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yLclF8FlAqOpxy3Zv6Lq-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="yLclF8FlAqOpxy3Zv6Lq-1">
+          <mxGeometry x="5" y="180" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yLclF8FlAqOpxy3Zv6Lq-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="yLclF8FlAqOpxy3Zv6Lq-1">
+          <mxGeometry x="5" y="300" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yLclF8FlAqOpxy3Zv6Lq-2" value="植物养护交流系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="150" width="100" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="yLclF8FlAqOpxy3Zv6Lq-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="yLclF8FlAqOpxy3Zv6Lq-2">
+          <mxGeometry x="45" y="70" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yLclF8FlAqOpxy3Zv6Lq-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="yLclF8FlAqOpxy3Zv6Lq-2">
+          <mxGeometry x="45" y="180" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yLclF8FlAqOpxy3Zv6Lq-7" value="授权登陆请求" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.45;entryY=0.153;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.936;exitY=0.002;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="yLclF8FlAqOpxy3Zv6Lq-22" target="yLclF8FlAqOpxy3Zv6Lq-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="300" y="220" as="sourcePoint" />
+            <mxPoint x="385" y="221" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yLclF8FlAqOpxy3Zv6Lq-8" value="登陆成功，返回个人主页页面" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.06;exitY=0.988;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.908;entryY=0.983;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yLclF8FlAqOpxy3Zv6Lq-3" target="yLclF8FlAqOpxy3Zv6Lq-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="300" as="sourcePoint" />
+            <mxPoint x="300" y="299" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yLclF8FlAqOpxy3Zv6Lq-10" value="进入社区首页" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.033;entryY=0.132;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.964;exitY=0.122;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="yLclF8FlAqOpxy3Zv6Lq-4" source="yLclF8FlAqOpxy3Zv6Lq-23">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="300" y="341" as="sourcePoint" />
+            <mxPoint x="460" y="339" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yLclF8FlAqOpxy3Zv6Lq-18" value="返回社区首页页面" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.06;exitY=0.988;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.894;entryY=0.997;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="yLclF8FlAqOpxy3Zv6Lq-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465.38" y="409.99999999999994" as="sourcePoint" />
+            <mxPoint x="295" y="406" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yLclF8FlAqOpxy3Zv6Lq-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="465" y="450" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yLclF8FlAqOpxy3Zv6Lq-20" value="查看文章详情" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.033;entryY=0.132;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.021;exitY=0.125;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="yLclF8FlAqOpxy3Zv6Lq-19" source="yLclF8FlAqOpxy3Zv6Lq-24">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="300" y="461" as="sourcePoint" />
+            <mxPoint x="460" y="459" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yLclF8FlAqOpxy3Zv6Lq-21" value="返回文章详情" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.06;exitY=0.988;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.965;entryY=0.994;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="yLclF8FlAqOpxy3Zv6Lq-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465.38" y="530" as="sourcePoint" />
+            <mxPoint x="300" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
